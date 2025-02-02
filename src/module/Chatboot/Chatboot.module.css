@@ -1,0 +1,64 @@
+.ChatbootHeader{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-style: italic;
+}
+.ChatbootContenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.InputContenar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.ResultContenar{
+    width: 61%;
+    height: 500px;
+    background-color: rgba(20, 19, 19, 0.509);
+    border-radius: 10px;
+    padding: 1rem 0;
+    overflow-y: scroll;
+}
+.ResultContenar > .InfoMessage{
+    color: #ddd;
+    text-align:end;
+    background-color: rgb(45, 45, 44);
+    margin-bottom: auto;
+    padding-right: 1rem;
+}
+.InfoResponse{
+    color: #ddd;
+    text-align:start;
+    margin-bottom: auto;
+    padding-left: 1rem;
+}
+
+
+.InputContenar > input {
+    width: 50%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1.2rem;
+    padding: .5rem;
+    outline: none;
+}
+.InputContenar > button {
+    width: 10%;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #838383dd;
+    transition: all .2s ease-in-out ;
+    padding: .5rem;
+    
+}
+.InputContenar > button:hover{
+    opacity: .5;
+}
